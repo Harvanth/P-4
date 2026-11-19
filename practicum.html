@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text Styles and Layouts</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: #087f78;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: #064e49;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .box {
+            flex: 1;
+            padding: 20px;
+            border: 2px solid #087f78;
+            border-radius: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Text Styles and Layouts</h1>
+    <hr>
+
+    <h2 class="heading">Simple Web Layout Using CSS</h2>
+
+    <p style="color: #555; font-size: 18px;">
+        This is a simple example of a web layout using various CSS text styles.
+    </p>
+
+    <div class="container">
+
+        <div class="side box">
+            <h2>Sidebar</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+
+            <span class="tag">Explore More</span>
+        </div>
+
+        <div class="main box">
+            <h2>Main Content</h2>
+
+            <p>
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+
+            <span class="tag">Learn More</span>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 CSS Text Styles and Layouts</p>
+    </footer>
+
+</body>
+
+</html>
